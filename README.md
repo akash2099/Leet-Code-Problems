@@ -1,6 +1,6 @@
 # Leet-Code-Problems
 
-Contains solved LeetCode Problems Easy, Medium and Hard
+Contains solved LeetCode Problems Easy, Medium and Hard in  CPP.
 
 Left-> Optimization-> Solved
 
