@@ -6,4 +6,6 @@ Left-> Optimization-> Solved :running:
 
 Solved-> Other Categories :relieved:
 
+Think-> Partially solved logic
+
 *Thank you* :baby_chick:
