@@ -13,17 +13,12 @@ public:
             return;
         }
         
-        string o1=curr;
-        string o2=curr;
-
         if(open>=1){
-            o1.push_back('(');
-            ans(open-1,close,o1,v);
+            ans(open-1,close,curr+"(",v);
         }
         
         if(open<close){
-            o2.push_back(')');
-            ans(open,close-1,o2,v);
+            ans(open,close-1,curr+")",v);
         }
         
     }
