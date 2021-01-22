@@ -4,6 +4,20 @@ static int fastio=[](){
     cout.tie(NULL);
     return 0;
 }();
+/*
+Value of k: (beauty)
+0  0  0 | 1  1  1 | 2  2  2
+0  0  0 | 1  1  1 | 2  2  2
+0  0  0 | 1  1  1 | 2  2  2
+--------+---------+---------
+3  3  3 | 4  4  4 | 5  5  5
+3  3  3 | 4  4  4 | 5  5  5
+3  3  3 | 4  4  4 | 5  5  5
+--------+----------+--------
+6  6  6 | 7  7  7 | 8  8  8
+6  6  6 | 7  7  7 | 8  8  8
+6  6  6 | 7  7  7 | 8  8  8
+*/
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
