@@ -1,3 +1,9 @@
+static int fastio=[](){
+    std::ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    return 0;
+}();
 class Solution {
 public:
     bool isValid(vector<vector<char>>& board, int row, int col, char num){ // teh main important function
