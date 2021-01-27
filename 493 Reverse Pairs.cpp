@@ -1,3 +1,6 @@
+/*
+https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
+*/
 static int fastio=[](){
     std::ios::sync_with_stdio(false);
     cin.tie(NULL);
